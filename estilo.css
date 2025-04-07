@@ -1,30 +1,32 @@
 
 body {
-    background-color: black;
+    /* aca me modificaria todoe l fondo salvo la parte del header y carrusel */
+    background-color: #f5f0e1;
 }
-
+/* aca me modificaria la parte del carrusel  */
 #carouselExample {
-    background-color: white; /* Solo afecta al carrusel */
+    background-color: #f5f0e1; /* Solo afecta al carrusel */
     padding: 5px;   /* vendria a ser el espacio que se deja entre la imagen y el carrusel */
     border-radius: 5px;
 }
-header{
-    color: black;
-    background-color: aliceblue;
+header{ 
+    /* aca me modificaria la parte del titulo */
+    color: white;
+    background-color: #4e342e;
     text-align: center;
 }
 #Paisaje1 {
     /* Estilos específicos para la primera imagen */
-    border: 5px solid black;
+    border: 5px solid #4e342e;
 }
 
 #Paisaje2 {
     /* Estilos específicos para la segunda imagen */
-    border: 5px solid #000; /* Ejemplo: agregar un borde negro */
+    border: 5px solid #4e342e; /* Ejemplo: agregar un borde negro */
 }
 #Paisaje3 {
     /* Estilos específicos para la tercera imagen */
-    border: 5px solid black;
+    border: 5px solid #4e342e;
 }
 
 .carousel-controls {
@@ -32,7 +34,7 @@ header{
     display: flex;   
 }
 
-/* Si deseas que los botones tengan más estilo */
+/* mas estilos en los botones  */
 .carousel-control-prev, .carousel-control-next {
     
     background-color: rgba(114, 105, 101, 0.5); /*  El valor rgba(0, 0, 0, 0.5) representa el color negro (rgb(0, 0, 0)) con un 50% de opacidad. */
@@ -42,21 +44,22 @@ header{
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: black; /* Color de los iconos */
-    color: #000;
+    background-color:#4e342e; /* Color de los iconos */
+    color:#4e342e;
 }
 footer{
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: black;
     
 }
 main {
     background-color: #fff; /* Fondo blanco para la sección principal */
     color: black; /* Texto negro para el main */
     text-align: justify;
+    text-decoration: none;
     padding: 20px; /* Asegura que haya espacio alrededor del texto */
 }
-/* carouselExample → Se usa cuando el elemento tiene un ID (id="carouselExample" en HTML).
+/* #carouselExample → Se usa cuando el elemento tiene un ID (id="carouselExample" en HTML).
 
 .carouselExample → Se usa cuando el elemento tiene una clase (class="carouselExample" en HTML). */
